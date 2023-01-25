@@ -1,3 +1,9 @@
+This topic talks about comparison of the performance between Http 1.1 & Http 2.1
+
+Here is the short explanation on the Http protocols: 
+1. Http 1.1 :  Makes one request and one response
+2. Http 2:  Can make multiple request and response in the same connection. So, multiplexing is possible using stream id.  
+3. Http 3:  uses UDP 
 
 | Scenario                                              | time in ms for 10000 request | Explanation                                                                                                                                                              |
 |-------------------------------------------------------|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
