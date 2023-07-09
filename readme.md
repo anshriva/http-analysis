@@ -33,5 +33,3 @@ Here is the short explanation on the Http protocols:
 4. The spring boot server by default is http 1.1. If you want your server to support http2, then you need to specifically write following line the application.properties:
 
    ```server.http2.enabled=true```
-
-5. In case server does not support http 2 and client request is made with http 2, then it will throw error. 
